@@ -36,6 +36,7 @@
     </style>
   </head>
   <body>
+    <audio id="my_audio" src="james.mp3" loop="loop"></audio>
     <ul id='navbar'>
       <li><a href = "index.html">Home</a></li>
       <li><a href = "game.html">Game</a></li>
@@ -46,7 +47,7 @@
     <ul class="store">
         <li><a href = "https://www.ebay.com/itm/Spongebob-Squarepants-Patrick-Christmas-Sweater-Red-Pullover-size-XL-LED-Lights/384010717109">
             <img src="https://i.ebayimg.com/images/g/7usAAOSwZH5gSXrK/s-l500.jpg"/>
-            <br>Buy Now</a>
+            <br>Buy Now</a> <p>$52 (Auction)</p>
         </li>
         <li><a href = "https://www.ebay.com/itm/MLB-Miami-Marlins-Mens-Polo-T-Shirt-L/384011290873" >
             <img src="https://i.ebayimg.com/images/g/kwIAAOSwt5ZgSXit/s-l500.jpg"/>
@@ -68,5 +69,10 @@
             <br>Buy Now</a>
         </li>
     </ul>
+    <script>
+    window.onmouseover = function() {
+        document.getElementById("my_audio").play();
+    }
+    </script>
   </body>
 </html>
